@@ -6,11 +6,15 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    /* background: url('../img/bg.jpg') no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	text-align: center;
+	display:block;
+	margin: auto;
+	color: #C56335;
 }
 
 h1,
@@ -29,6 +33,7 @@ p {
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
+	color: #C56335;
 }
 
 hr {
@@ -48,9 +53,13 @@ hr {
 }
 
 .navbar-nav {
+	color: #9B7740;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+	text-align: center;
+	position: center;
+	background-color: #F8F8F5;
 }
 
 .img-full {
@@ -181,6 +190,48 @@ footer p {
         table-layout: fixed;
         font-size: 1.25em;
     }
+	
+	.video-responsive {
+		display: block;
+		min-width: 100%;
+		min-height: 100%;
+	}
+	
+	.video-container {
+		width: 100vw;
+		height: 70vh;
+		object-fit: cover;
+	}
+	
+	.li-selected {
+		background-color:#F3F4F3;
+	}
+	
+	.icon {
+		width: 1px;
+		height: 1px;
+	}
+	
+	.background-dark {
+		background-color: #E8E8E5;
+	}
+	
+	.pizza-title {
+		font-style: italic;
+		font-size: 48px;
+		font-family: "Freestyle Script";
+		color: #C56335;
+		background-color: #302F4C;
+	}
+	
+	.phone-number {
+		color: #F98A00;
+	}
+	
+	.article {
+		color: white;
+		background-color: #261C11;
+	}
 }
 
 @media screen and (min-width:1200px) {
