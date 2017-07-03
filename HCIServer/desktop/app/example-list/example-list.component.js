@@ -5,7 +5,7 @@ component('exampleList', {
   templateUrl: 'app/example-list/example-list.template.html',
   controller: function ExampleListController($http) {
             var self = this;
-            $http.get('/data?_collection=dogs').then(function(response) {
+            $http.get('/data?_collection=news').then(function(response) {
                 self.list = response.data;
             });
         }

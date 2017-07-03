@@ -1,0 +1,6 @@
+all the additional resources (mostly css files) were taken from:
+
+https://startbootstrap.com/template-overviews/business-casual/
+
+it was mostly used for the carousel at the 'news' page and for the general layout of the website (although the general layout we changed quite alot).
+ the rest we took from the server example.

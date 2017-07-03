@@ -4,73 +4,31 @@ data = {
     # Example of a collection
     "dogs": [
         {
-            "size": 'small',
-            "name": 'Welsh Corgi',
-            'snippet': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                       "Duis sed ultricies lectus, et porttitor diam. Vivamus viverra tincidunt sagittis. "
-                       "Fusce pellentesque nibh a convallis eleifend. Ut malesuada, justo a sodales accumsan, "
-                       "magna purus vehicula lorem, a tincidunt justo odio vitae leo. Nulla a enim at metus ultrices "
-                       "mollis. Donec scelerisque, metus non volutpat finibus, ligula justo sollicitudin nisl, "
-                       "sit amet rutrum lorem felis eu orci. Sed dictum dignissim sapien, quis sodales dolor vehicula "
-                       "sit amet. Etiam tempus felis turpis, sit amet vehicula ante tincidunt at. Integer ligula mi, "
-                       "lobortis a hendrerit et, posuere id elit. Donec pellentesque nisl id vestibulum porttitor."
-                       "Phasellus vel felis rhoncus, vehicula nisl in, eleifend orci. Cras tellus nibh, semper nec mi "
-                       "eget, interdum vehicula ante. In sed ultrices erat, vitae dictum magna. Mauris id porttitor "
-                       "diam. Curabitur ut vehicula mi. Sed tempor felis nec est semper facilisis. Nunc a enim a "
-                       "lectus placerat feugiat. Maecenas ante risus, sollicitudin nec ligula eget, luctus mollis "
-                       "lorem."
-                       "Curabitur aliquam, leo id venenatis posuere, leo ex condimentum augue, quis iaculis "
-                       "elit nunc non sapien. Mauris id nunc aliquam, imperdiet diam ac, viverra ante. Praesent "
-                       "hendrerit neque et nisi tincidunt, mattis ultrices eros mollis. Etiam auctor facilisis felis, "
-                       "et commodo.",
-            'imageUrl': '/shared/images/corgi.jpg'
+            "index": '0',
+            'txt': "Pikatchu Breakfast",
+            'small_txt': "Only 3.90$",
+            'imageUrl': '/shared/images/pika_omlet.png'
         },
         {
-            "size": 'small',
-            "name": 'Cavalier King Charles Spaniel',
-            'snippet': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                       "Duis sed ultricies lectus, et porttitor diam. Vivamus viverra tincidunt sagittis. "
-                       "Fusce pellentesque nibh a convallis eleifend. Ut malesuada, justo a sodales accumsan, "
-                       "magna purus vehicula lorem, a tincidunt justo odio vitae leo. Nulla a enim at metus ultrices "
-                       "mollis. Donec scelerisque, metus non volutpat finibus, ligula justo sollicitudin nisl, "
-                       "sit amet rutrum lorem felis eu orci. Sed dictum dignissim sapien, quis sodales dolor vehicula "
-                       "sit amet. Etiam tempus felis turpis, sit amet vehicula ante tincidunt at. Integer ligula mi, "
-                       "lobortis a hendrerit et, posuere id elit. Donec pellentesque nisl id vestibulum porttitor."
-                       "Phasellus vel felis rhoncus, vehicula nisl in, eleifend orci. Cras tellus nibh, semper nec mi "
-                       "eget, interdum vehicula ante. In sed ultrices erat, vitae dictum magna. Mauris id porttitor "
-                       "diam. Curabitur ut vehicula mi. Sed tempor felis nec est semper facilisis. Nunc a enim a "
-                       "lectus placerat feugiat. Maecenas ante risus, sollicitudin nec ligula eget, luctus mollis "
-                       "lorem."
-                       "Curabitur aliquam, leo id venenatis posuere, leo ex condimentum augue, quis iaculis "
-                       "elit nunc non sapien. Mauris id nunc aliquam, imperdiet diam ac, viverra ante. Praesent "
-                       "hendrerit neque et nisi tincidunt, mattis ultrices eros mollis. Etiam auctor facilisis felis, "
-                       "et commodo.",
-            'imageUrl': '/shared/images/cavalier.jpg'
+            "index": '1',
+            'txt': "strong food",
+            'small_txt': "ask the waitress",
+            'imageUrl': '/shared/images/db_food.png'
         },
         {
-            "size": 'medium',
-            "name": 'Australian Shepherd',
-            'snippet': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                       "Duis sed ultricies lectus, et porttitor diam. Vivamus viverra tincidunt sagittis. "
-                       "Fusce pellentesque nibh a convallis eleifend. Ut malesuada, justo a sodales accumsan, "
-                       "magna purus vehicula lorem, a tincidunt justo odio vitae leo. Nulla a enim at metus ultrices "
-                       "mollis. Donec scelerisque, metus non volutpat finibus, ligula justo sollicitudin nisl, "
-                       "sit amet rutrum lorem felis eu orci. Sed dictum dignissim sapien, quis sodales dolor vehicula "
-                       "sit amet. Etiam tempus felis turpis, sit amet vehicula ante tincidunt at. Integer ligula mi, "
-                       "lobortis a hendrerit et, posuere id elit. Donec pellentesque nisl id vestibulum porttitor."
-                       "Phasellus vel felis rhoncus, vehicula nisl in, eleifend orci. Cras tellus nibh, semper nec mi "
-                       "eget, interdum vehicula ante. In sed ultrices erat, vitae dictum magna. Mauris id porttitor "
-                       "diam. Curabitur ut vehicula mi. Sed tempor felis nec est semper facilisis. Nunc a enim a "
-                       "lectus placerat feugiat. Maecenas ante risus, sollicitudin nec ligula eget, luctus mollis "
-                       "lorem."
-                       "Curabitur aliquam, leo id venenatis posuere, leo ex condimentum augue, quis iaculis "
-                       "elit nunc non sapien. Mauris id nunc aliquam, imperdiet diam ac, viverra ante. Praesent "
-                       "hendrerit neque et nisi tincidunt, mattis ultrices eros mollis. Etiam auctor facilisis felis, "
-                       "et commodo.",
-            'imageUrl': '/shared/images/aussi.jpg'
+            "index": '2',
+            'txt': "new beer special this summer!",
+            'small_txt': "5.50$ for a glass",
+            'imageUrl': '/shared/images/beers.png'
+        },
+        {
+            "index": '3',
+            'txt': "hear about our new home-brew beers",
+            'small_txt': "Eeasy & Greasy Brewry",
+            'imageUrl': '/shared/images/beer.png'
         },
 
-    ]
+    ],
 }
 
 
